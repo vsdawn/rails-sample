@@ -1,0 +1,8 @@
+
+<% provide(:title, @user.name) %>
+
+<li><%= link_to "Send Email", new_contact_path %></li>
+<li><%= link_to 'My Blog', controller: 'articles' %>  
+
+
+<%= link_to 'Ask Questions', new_article_path, class: "btn btn-primary askquestion" %></li>

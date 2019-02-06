@@ -1,0 +1,11 @@
+<%= form_with model: @article, local: true do |form| %>
+  <p>
+    <%= form.label :Write_Question %><br>
+    <%= form.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= form.submit "create question" %>
+  </p>
+ 
+<% end %>
